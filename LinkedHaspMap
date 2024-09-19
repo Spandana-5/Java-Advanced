@@ -1,0 +1,13 @@
+import java.util.*;
+class Test{
+    public static void main(String args[]){
+        LinkedHashMap h1 = new LinkedHashMap();
+        h1.put(101,"s");
+        h1.put(102,"p");
+        h1.put(103,"a");
+        h1.put(104,"n");
+        h1.put(104,"p");
+        System.out.println(h1);
+        
+    }
+}
