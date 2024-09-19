@@ -1,0 +1,12 @@
+import java.util.*;
+class Test{
+    public static void main(String args[]){
+        HashMap h1 = new HashMap();
+        h1.put(101,"s");
+        h1.put(102,"p");
+        h1.put(103,"a");
+        h1.put(104,"n");
+        System.out.println(h1);
+        
+    }
+}
